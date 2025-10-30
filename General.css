@@ -1,0 +1,121 @@
+.msg_err_login {
+    color: red;
+    font-weight:lighter;
+    margin-top: 100px;
+    text-align: center;
+    bottom: 30px;
+}
+
+.msg_succes_login {
+    color: green;
+    font-weight: lighter;
+    margin-top: 20px;
+    text-align: center;
+    bottom: 10px;
+}
+
+.form_log {
+    display: flex;
+    flex-direction: column;
+    width: 300px;
+    margin: 0 auto;
+}
+
+.mail, .mdp{
+    font-family: Arial, sans-serif;
+    font-size: 16px;
+    font-weight: bold;
+    color: #333;
+    display: block;
+    margin-top: 15px;
+    margin-bottom: 5px;
+}
+
+.mail_inpt, .mdp_inpt {
+    padding: 8px;
+    font-size: 16px;
+    border: 1px solid #939393;
+    border-radius: 4px;
+    box-shadow: 10px 10px 20px rgba(0, 0, 0, 0.2);
+}
+
+.seco_inpt {
+    padding: 10px;
+    font-size: 16px;
+    background-color: #182a76;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    box-shadow: 10px 10px 20px rgba(0, 0, 0, 0.2);
+}
+
+.lien {
+    color: #182a76;
+    text-decoration: underline;
+    text-align: center;
+    margin-top: 15px;
+    font-family: Arial, sans-serif;
+}
+
+.titre_page {
+    text-align: center;
+    color: #182a76;
+    margin-top: 50px;
+    margin-bottom: 10px;
+}
+
+.sstitre_page {
+    text-align: center;
+    color: #555555;
+    margin-bottom: 10px;
+}
+
+.connect_act {
+    text-align: center;
+    color: #182a76;
+    margin-bottom: 30px;
+}
+
+.body_utilisateur {
+    background-color: #f0f2f5;
+    display: flex;
+    flex-direction: column;
+    align-items: center; 
+    padding-top: 20px;
+}
+
+.body {
+    background-color: #f0f2f5;
+    text-align: center;
+}
+
+.sslistes_acc_concert, .sslistes_acc_act{
+    text-align: center;
+    color: #000000;
+    margin-bottom: 20px;
+    font-family: Arial, sans-serif;
+}
+
+.liste_concert, .liste_activite {
+    list-style-type: none;
+    padding: 0;
+    margin: 0 20px 40px 20px;
+    text-align: left;
+}
+
+.liste_concert li, .liste_activite li {
+    background-color: #ffffff;
+    border: 1px solid #b5b5b5;
+    border-radius: 5px;
+    padding: 15px;
+    margin-bottom: 10px;
+    box-shadow: 5px 5px 15px rgba(0, 0, 0, 0.1);
+}
+
+.photo_concert {
+    width: 100px;
+    height: auto;
+    margin-top: 10px;
+    border-radius: 5px;
+}
