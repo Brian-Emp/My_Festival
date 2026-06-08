@@ -14,6 +14,7 @@ Browse the line-up, sign up for activities, and chat with other festival-goers �
 *BTS SIO · First transversal project*
  
 </div>
+
 ---
  
 ##  What is it?
@@ -42,6 +43,7 @@ No framework, no build step — just plain **PHP**, **MySQL** and **CSS**, the w
 - **Frontend** — server-rendered HTML + vanilla CSS
 - **Auth** — PHP sessions
 - **Tooling** — phpMyAdmin for the database
+  
 ---
  
 ##  Database
@@ -149,6 +151,7 @@ The SQL dump ships with sample content so you can try it instantly — a handful
 ---
  
 <div align="center">
+
 Made by [**Brian**](https://github.com/Brian-Emp)
  
 </div>
